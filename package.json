@@ -1,0 +1,14 @@
+{
+  "name": "space-fight",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chrispalmo/space-fight.git",
+  "author": "chrispalmo <34981948+chrispalmo@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^7.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}

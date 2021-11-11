@@ -1,0 +1,40 @@
+{
+    "compileOnSave": false,
+    "bazelOptions": {
+        "googmodule": true,
+        "disableStrictDeps": true
+    },
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "importHelpers": true,
+        "module": "esnext",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "downlevelIteration": true,
+        "skipLibCheck": true,
+        "noImplicitOverride": true,
+        "strict": true,
+        "target": "es2015",
+        "jsx": "react",
+        "typeRoots": [
+            "./apps/create/src/types",
+            "node_modules/@types",
+            "node_modules/@schemastore"
+        ],
+        "lib": ["ESNext", "dom"],
+        "baseUrl": ".",
+        "rootDir": ".",
+        "allowJs": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true
+    },
+    "exclude": ["node_modules", "tmp"],
+    "types": ["chrome", "web-manifest"],
+    "include": ["src"]
+}
